@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED12EF71C16054B00D7FB5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED12EF61C16054B00D7FB5C /* UIKit.framework */; };
+		5ED12EF91C16055300D7FB5C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED12EF81C16055300D7FB5C /* AVKit.framework */; };
+		5EED06E11C161C16002BCA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EED06E01C161C16002BCA03 /* Assets.xcassets */; };
+		7904EB451BDABC5C00FA9DC1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7904EB441BDABC5C00FA9DC1 /* MainTabBarController.swift */; };
+		797C5FFF1BD40CBB00E2BFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C5FFE1BD40CBB00E2BFB4 /* AppDelegate.swift */; };
+		797C60041BD40CBB00E2BFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C60021BD40CBB00E2BFB4 /* Main.storyboard */; };
+		797C60101BD40DED00E2BFB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C600F1BD40DED00E2BFB4 /* ViewController.swift */; };
+		797C60121BD4107900E2BFB4 /* SenderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C60111BD4107900E2BFB4 /* SenderCollectionViewCell.swift */; };
+		797C60141BD41ACF00E2BFB4 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C60131BD41ACF00E2BFB4 /* PlayerViewController.swift */; };
+		797C60181BD4242C00E2BFB4 /* TVStationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C60171BD4242C00E2BFB4 /* TVStationsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5ED12EF61C16054B00D7FB5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5ED12EF81C16055300D7FB5C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		5ED8F3151C38317A00582400 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "ez-iptv/Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		5EED06E01C161C16002BCA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7904EB441BDABC5C00FA9DC1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		797C5FFB1BD40CBB00E2BFB4 /* EZ IPTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ IPTV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797C5FFE1BD40CBB00E2BFB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		797C60031BD40CBB00E2BFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797C60071BD40CBB00E2BFB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797C600F1BD40DED00E2BFB4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		797C60111BD4107900E2BFB4 /* SenderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenderCollectionViewCell.swift; sourceTree = "<group>"; };
+		797C60131BD41ACF00E2BFB4 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		797C60171BD4242C00E2BFB4 /* TVStationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVStationsController.swift; sourceTree = "<group>"; usesTabs = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797C5FF81BD40CBB00E2BFB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED12EF91C16055300D7FB5C /* AVKit.framework in Frameworks */,
+				5ED12EF71C16054B00D7FB5C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797C5FF21BD40CBB00E2BFB4 = {
+			isa = PBXGroup;
+			children = (
+				5ED12EF81C16055300D7FB5C /* AVKit.framework */,
+				5ED12EF61C16054B00D7FB5C /* UIKit.framework */,
+				797C5FFD1BD40CBB00E2BFB4 /* ez-iptv */,
+				797C5FFC1BD40CBB00E2BFB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797C5FFC1BD40CBB00E2BFB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797C5FFB1BD40CBB00E2BFB4 /* EZ IPTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797C5FFD1BD40CBB00E2BFB4 /* ez-iptv */ = {
+			isa = PBXGroup;
+			children = (
+				797C5FFE1BD40CBB00E2BFB4 /* AppDelegate.swift */,
+				797C60021BD40CBB00E2BFB4 /* Main.storyboard */,
+				5ED8F3151C38317A00582400 /* Bridging-Header.h */,
+				797C60071BD40CBB00E2BFB4 /* Info.plist */,
+				5EED06E01C161C16002BCA03 /* Assets.xcassets */,
+				797C600F1BD40DED00E2BFB4 /* ViewController.swift */,
+				797C60111BD4107900E2BFB4 /* SenderCollectionViewCell.swift */,
+				797C60131BD41ACF00E2BFB4 /* PlayerViewController.swift */,
+				797C60171BD4242C00E2BFB4 /* TVStationsController.swift */,
+				7904EB441BDABC5C00FA9DC1 /* MainTabBarController.swift */,
+			);
+			path = "ez-iptv";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797C5FFA1BD40CBB00E2BFB4 /* EZ IPTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797C600A1BD40CBB00E2BFB4 /* Build configuration list for PBXNativeTarget "EZ IPTV" */;
+			buildPhases = (
+				797C5FF71BD40CBB00E2BFB4 /* Sources */,
+				797C5FF81BD40CBB00E2BFB4 /* Frameworks */,
+				797C5FF91BD40CBB00E2BFB4 /* Resources */,
+				799477C41BDC45CA00A3A729 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ IPTV";
+			productName = "Öffentlich Rechtliche LIVE";
+			productReference = 797C5FFB1BD40CBB00E2BFB4 /* EZ IPTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797C5FF31BD40CBB00E2BFB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kanestv;
+				TargetAttributes = {
+					797C5FFA1BD40CBB00E2BFB4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 797C5FF61BD40CBB00E2BFB4 /* Build configuration list for PBXProject "EZ IPTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797C5FF21BD40CBB00E2BFB4;
+			productRefGroup = 797C5FFC1BD40CBB00E2BFB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797C5FFA1BD40CBB00E2BFB4 /* EZ IPTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797C5FF91BD40CBB00E2BFB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EED06E11C161C16002BCA03 /* Assets.xcassets in Resources */,
+				797C60041BD40CBB00E2BFB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		799477C41BDC45CA00A3A729 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "buildPlist=${INFOPLIST_FILE}\necho $buildPlist\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $buildPlist)\necho $buildNumber\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" $buildPlist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797C5FF71BD40CBB00E2BFB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797C60181BD4242C00E2BFB4 /* TVStationsController.swift in Sources */,
+				797C60121BD4107900E2BFB4 /* SenderCollectionViewCell.swift in Sources */,
+				7904EB451BDABC5C00FA9DC1 /* MainTabBarController.swift in Sources */,
+				797C60141BD41ACF00E2BFB4 /* PlayerViewController.swift in Sources */,
+				797C60101BD40DED00E2BFB4 /* ViewController.swift in Sources */,
+				797C5FFF1BD40CBB00E2BFB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		797C60021BD40CBB00E2BFB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797C60031BD40CBB00E2BFB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797C60081BD40CBB00E2BFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		797C60091BD40CBB00E2BFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797C600B1BD40CBB00E2BFB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ez-iptv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kane2931.eziptv;
+				PRODUCT_NAME = "EZ IPTV";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ez-iptv/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		797C600C1BD40CBB00E2BFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ez-iptv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kane2931.eziptv;
+				PRODUCT_NAME = "EZ IPTV";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ez-iptv/Bridging-Header.h";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797C5FF61BD40CBB00E2BFB4 /* Build configuration list for PBXProject "EZ IPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797C60081BD40CBB00E2BFB4 /* Debug */,
+				797C60091BD40CBB00E2BFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797C600A1BD40CBB00E2BFB4 /* Build configuration list for PBXNativeTarget "EZ IPTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797C600B1BD40CBB00E2BFB4 /* Debug */,
+				797C600C1BD40CBB00E2BFB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797C5FF31BD40CBB00E2BFB4 /* Project object */;
+}
