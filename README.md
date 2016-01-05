@@ -4,7 +4,7 @@ To make your own playlist it's very easy, just edit the URL in AppDelegate.swift
 
 PS: Please expect some delay for Pastebin to process your file, sometime the "raw" is updated by Pastebin every 30-60 minutes after you've made the changes.
 
-Also the format of your Pastebin file needs to be very specific, look at the exemple playlist to help you build your own. It's not that hard.
+Also the format of your Pastebin file needs to be very specific (JSON format), look at the exemple playlist to help you build your own. It's not that hard.
 
 Enjoy!
 
